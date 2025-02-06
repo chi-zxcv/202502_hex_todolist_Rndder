@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "jameschen",
@@ -10,5 +11,8 @@
   "description": "",
   "dependencies": {
     "uuid": "^11.0.5"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
